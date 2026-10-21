@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="426" viewBox="0 0 860 426" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="490" viewBox="0 0 860 490" role="img" aria-labelledby="title description">
   <title id="title">Game compatibility</title>
-  <desc id="description">ARC Raiders and THE FINALS: Working, full compatibility. Squad: Some progress, missing online compatibility. WARDOGS: Some progress. Helldivers: Not started, still under consideration. Updated 21 October 2026.</desc>
+  <desc id="description">ARC Raiders and THE FINALS: Working, full compatibility. Squad: Some progress, missing online compatibility. WARDOGS: Some progress. Helldivers: Not started, still under consideration. GTA 6 (PC release): Not started, only if it doesn’t already work through CrossOver. Updated 21 October 2026.</desc>
   <style>
     .card{fill:#ffffff;stroke:#d1d9e0}.main{fill:#1f2328}.muted{fill:#59636e}
     .line{stroke:#d1d9e0;stroke-opacity:.65}.header{fill:#f6f8fa}
@@ -16,7 +16,7 @@
       .pending-bg{fill:#21262d}.pending{fill:#a4afbd}
     }
   </style>
-  <rect class="card" x=".5" y=".5" width="859" height="425" rx="12"/>
+  <rect class="card" x=".5" y=".5" width="859" height="489" rx="12"/>
   <text class="main" x="24" y="37" font-size="19" font-weight="600">Game compatibility</text>
   <text class="muted" x="836" y="36" font-size="12" text-anchor="end">Updated 21 October 2026</text>
   <rect class="header" x="16" y="58" width="828" height="34" rx="6"/>
@@ -26,7 +26,7 @@
     <text x="528" y="80">COMPATIBILITY</text>
   </g>
   <g class="line">
-    <path d="M24 158H836M24 222H836M24 286H836M24 350H836"/>
+    <path d="M24 158H836M24 222H836M24 286H836M24 350H836M24 414H836"/>
   </g>
   <g class="main" font-size="17" font-weight="600">
     <text x="32" y="132">ARC Raiders</text>
@@ -34,6 +34,7 @@
     <text x="32" y="260">Squad</text>
     <text x="32" y="324">WARDOGS</text>
     <text x="32" y="388">Helldivers</text>
+    <text x="32" y="452">GTA 6 (PC release)</text>
   </g>
   <g>
     <rect class="working-bg" x="310" y="108" width="164" height="32" rx="16"/>
@@ -41,6 +42,7 @@
     <rect class="progress-bg" x="310" y="236" width="164" height="32" rx="16"/>
     <rect class="progress-bg" x="310" y="300" width="164" height="32" rx="16"/>
     <rect class="pending-bg" x="310" y="364" width="164" height="32" rx="16"/>
+    <rect class="pending-bg" x="310" y="428" width="164" height="32" rx="16"/>
   </g>
   <g>
     <circle class="working" cx="327" cy="124" r="3.5"/>
@@ -48,6 +50,7 @@
     <circle class="progress" cx="327" cy="252" r="3.5"/>
     <circle class="progress" cx="327" cy="316" r="3.5"/>
     <circle class="pending" cx="327" cy="380" r="3.5"/>
+    <circle class="pending" cx="327" cy="444" r="3.5"/>
   </g>
   <g font-size="14" font-weight="600">
     <text class="working" x="341" y="129">Working</text>
@@ -55,11 +58,13 @@
     <text class="progress" x="341" y="257">Some progress</text>
     <text class="progress" x="341" y="321">Some progress</text>
     <text class="pending" x="341" y="385">Not started</text>
+    <text class="pending" x="341" y="449">Not started</text>
   </g>
   <g font-size="14">
     <text class="main" x="528" y="131">Full compatibility</text>
     <text class="main" x="528" y="195">Full compatibility</text>
     <text class="muted" x="528" y="259">Missing online compatibility</text>
     <text class="muted" x="528" y="387">Still under consideration</text>
+    <text class="muted" x="528" y="440">Only if it doesn’t already work<tspan x="528" dy="20">through CrossOver</tspan></text>
   </g>
 </svg>
