@@ -1,6 +1,6 @@
 # Mac Gaming Compatibility
 
-Compatibility status for games that don’t already run through CrossOver on Apple Silicon macOS.
+Making unsupported Windows games playable on Apple Silicon Macs through CrossOver.
 
 ![Game compatibility: ARC Raiders and THE FINALS — Working, full compatibility. Squad — Some progress, missing online compatibility. WARDOGS — Some progress. Helldivers — Not started, still under consideration.](docs/images/game-status.svg)
 
