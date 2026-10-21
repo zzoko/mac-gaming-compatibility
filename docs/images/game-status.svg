@@ -1,11 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="490" viewBox="0 0 860 490" role="img" aria-labelledby="title description">
   <title id="title">Game compatibility</title>
-  <desc id="description">ARC Raiders and THE FINALS: Working, full compatibility. Squad: Some progress, missing online compatibility. WARDOGS: Some progress. Helldivers: Not started, still under consideration. GTA 6 (PC release): Not started, only if it doesn’t already work through CrossOver. Updated 21 October 2026.</desc>
+  <desc id="description">ARC Raiders and THE FINALS: Working, full compatibility. Squad: Some progress, some online compatibility still missing. WARDOGS: Some progress. Helldivers: Not started, still under consideration. GTA 6 (PC release): Not started, only if it doesn’t already work through CrossOver. Updated 21 October 2026.</desc>
   <style>
     .card{fill:#ffffff;stroke:#d1d9e0}.main{fill:#1f2328}.muted{fill:#59636e}
     .line{stroke:#d1d9e0;stroke-opacity:.65}.header{fill:#f6f8fa}
     .working-bg{fill:#dafbe1}.working{fill:#1a7f37}
     .progress-bg{fill:#fff2cc}.progress{fill:#855b00}
+    .wardogs-bg{fill:#ffebe9}.wardogs{fill:#b0443e}
     .pending-bg{fill:#eff2f5}.pending{fill:#59636e}
     text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
     @media(prefers-color-scheme:dark){
@@ -13,6 +14,7 @@
       .line{stroke:#30363d}.header{fill:#161b22}
       .working-bg{fill:#122c1e}.working{fill:#56d483}
       .progress-bg{fill:#30260f}.progress{fill:#e9bd55}
+      .wardogs-bg{fill:#351e20}.wardogs{fill:#f28b82}
       .pending-bg{fill:#21262d}.pending{fill:#a4afbd}
     }
   </style>
@@ -40,7 +42,7 @@
     <rect class="working-bg" x="310" y="108" width="164" height="32" rx="16"/>
     <rect class="working-bg" x="310" y="172" width="164" height="32" rx="16"/>
     <rect class="progress-bg" x="310" y="236" width="164" height="32" rx="16"/>
-    <rect class="progress-bg" x="310" y="300" width="164" height="32" rx="16"/>
+    <rect class="wardogs-bg" x="310" y="300" width="164" height="32" rx="16"/>
     <rect class="pending-bg" x="310" y="364" width="164" height="32" rx="16"/>
     <rect class="pending-bg" x="310" y="428" width="164" height="32" rx="16"/>
   </g>
@@ -48,7 +50,7 @@
     <circle class="working" cx="327" cy="124" r="3.5"/>
     <circle class="working" cx="327" cy="188" r="3.5"/>
     <circle class="progress" cx="327" cy="252" r="3.5"/>
-    <circle class="progress" cx="327" cy="316" r="3.5"/>
+    <circle class="wardogs" cx="327" cy="316" r="3.5"/>
     <circle class="pending" cx="327" cy="380" r="3.5"/>
     <circle class="pending" cx="327" cy="444" r="3.5"/>
   </g>
@@ -56,14 +58,14 @@
     <text class="working" x="341" y="129">Working</text>
     <text class="working" x="341" y="193">Working</text>
     <text class="progress" x="341" y="257">Some progress</text>
-    <text class="progress" x="341" y="321">Some progress</text>
+    <text class="wardogs" x="341" y="321">Some progress</text>
     <text class="pending" x="341" y="385">Not started</text>
     <text class="pending" x="341" y="449">Not started</text>
   </g>
   <g font-size="14">
     <text class="main" x="528" y="131">Full compatibility</text>
     <text class="main" x="528" y="195">Full compatibility</text>
-    <text class="muted" x="528" y="259">Missing online compatibility</text>
+    <text class="muted" x="528" y="259">Some online compatibility still missing</text>
     <text class="muted" x="528" y="387">Still under consideration</text>
     <text class="muted" x="528" y="440">Only if it doesn’t already work<tspan x="528" dy="20">through CrossOver</tspan></text>
   </g>
