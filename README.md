@@ -4,6 +4,8 @@ Contributions to expanding CrossOver compatibility on Apple Silicon Macs, focuse
 
 ![Game compatibility: ARC Raiders and THE FINALS — Working, full compatibility. Squad — Some progress, some online compatibility still missing. WARDOGS — Some progress. Helldivers — Not started, still under consideration. GTA 6 (PC release) — Not started, only if it doesn’t already work through CrossOver.](docs/images/game-status.svg)
 
+<sub>Not every game listed is guaranteed to reach full compatibility. Maintaining compatibility with new CrossOver versions, macOS versions, or game updates depends on the time I have available.</sub>
+
 [**ARC Raiders project ↗**](https://github.com/zzoko/arc-raiders-macos-compatibility) &nbsp; · &nbsp; [**THE FINALS project ↗**](https://github.com/zzoko/the-finals-macos-compatibility)
 
 ## Support
