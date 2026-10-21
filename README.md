@@ -1,23 +1,16 @@
 # Mac Gaming Compatibility
 
-Progress on getting Windows games running on Apple Silicon Macs through CrossOver.
+Compatibility status for games that don’t already run through CrossOver on Apple Silicon macOS.
 
-[**News & updates →**](https://github.com/zzoko/mac-gaming-compatibility/discussions/categories/announcements)
+![Game compatibility: ARC Raiders and THE FINALS — Working, full compatibility. Squad — Some progress, missing online compatibility. WARDOGS — Some progress. Helldivers — Not started, still under consideration.](docs/images/game-status.svg)
 
-## Games
+[**ARC Raiders project ↗**](https://github.com/zzoko/arc-raiders-macos-compatibility) &nbsp; · &nbsp; [**THE FINALS project ↗**](https://github.com/zzoko/the-finals-macos-compatibility)
 
-| Game | Status | Latest update | Project |
-| --- | --- | --- | --- |
-| **ARC Raiders** | 🟢 Working | Full compatibility | [View project](https://github.com/zzoko/arc-raiders-macos-compatibility) |
-| **THE FINALS** | 🟢 Working | Full compatibility | [View project](https://github.com/zzoko/the-finals-macos-compatibility) |
-| **Squad** | 🟡 In progress | Missing online compatibility | — |
-| **WARDOGS** | 🟡 In progress | | — |
-| **Helldivers** | ⚪ Not started | Still under consideration | — |
+## Support
 
-*Last updated: 21 October 2026*
+Optional contributions help support the compatibility work.
 
-## Follow along
-
-I’ll keep this table up to date and post milestones, release news, and progress updates in [Discussions](https://github.com/zzoko/mac-gaming-compatibility/discussions).
-
-Game-specific downloads and installation instructions live in each game’s repository.
+<p>
+  <a href="https://ko-fi.com/andreiii22"><img src="docs/images/support-kofi.svg" alt="Support on Ko-fi" width="250" height="64"></a>&nbsp;
+  <a href="https://github.com/sponsors/zzoko"><img src="docs/images/github-sponsors.svg" alt="Support through GitHub Sponsors" width="250" height="64"></a>
+</p>
