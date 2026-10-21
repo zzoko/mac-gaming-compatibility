@@ -8,10 +8,11 @@ Progress on getting Windows games running on Apple Silicon Macs through CrossOve
 
 | Game | Status | Latest update | Project |
 | --- | --- | --- | --- |
-| **ARC Raiders** | 🟢 Working | Online gameplay working. Release being prepared. | [View project](https://github.com/zzoko/arc-raiders-macos-compatibility) |
-| **THE FINALS** | 🟢 Working | Online gameplay working. Installers prepared. | [View project](https://github.com/zzoko/the-finals-macos-compatibility) |
-| **Squad** | 🟡 In progress | Online compatibility is being investigated. | — |
-| **WARDOGS** | 🟠 Blocked | An unresolved startup compatibility issue is preventing gameplay. | — |
+| **ARC Raiders** | 🟢 Working | Full compatibility | [View project](https://github.com/zzoko/arc-raiders-macos-compatibility) |
+| **THE FINALS** | 🟢 Working | Full compatibility | [View project](https://github.com/zzoko/the-finals-macos-compatibility) |
+| **Squad** | 🟡 In progress | Missing online compatibility | — |
+| **WARDOGS** | 🟡 In progress | | — |
+| **Helldivers** | ⚪ Not started | Still under consideration | — |
 
 *Last updated: 21 October 2026*
 
