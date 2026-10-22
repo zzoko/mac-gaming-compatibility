@@ -1,72 +1,93 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="490" viewBox="0 0 860 490" role="img" aria-labelledby="title description">
-  <title id="title">Game compatibility</title>
-  <desc id="description">ARC Raiders and THE FINALS: Working, full compatibility. Squad: Some progress, some online compatibility still missing. WARDOGS: Some progress. Helldivers: Not started, still under consideration. GTA 6 (PC release): Not started, only if it doesn’t already work through CrossOver. Updated 21 October 2026.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="578" viewBox="0 0 860 578" role="img" aria-labelledby="title description">
+  <title id="title">Game compatibility and release plans</title>
+  <desc id="description">ARC Raiders is planned for the first release. Diagonally shaded games are planned for later. ARC Raiders and THE FINALS: Working, full compatibility. Squad: Some progress, some online compatibility still missing. WARDOGS: Some progress. Helldivers: Not started, still under consideration. GTA 6 (PC release): Not started, only if it doesn’t already work through CrossOver. Updated 22 October 2026.</desc>
   <style>
-    .card{fill:#ffffff;stroke:#d1d9e0}.main{fill:#1f2328}.muted{fill:#59636e}
-    .line{stroke:#d1d9e0;stroke-opacity:.65}.header{fill:#f6f8fa}
-    .working-bg{fill:#dafbe1}.working{fill:#1a7f37}
-    .progress-bg{fill:#fff2cc}.progress{fill:#855b00}
-    .wardogs-bg{fill:#ffebe9}.wardogs{fill:#b0443e}
-    .pending-bg{fill:#eff2f5}.pending{fill:#59636e}
     text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+    .panel{fill:#fff;stroke:#d1d9e0}.main{fill:#1f2937}.muted{fill:#64748b}
+    .arc{fill:#f0fbf5;stroke:#b8dfc9}.accent{fill:#1a8c51}.arc-title{fill:#123c28}
+    .row{fill:#f8fafc;stroke:#e4e9ef}.hatch{stroke:#94a3b8;stroke-opacity:.13}
+    .working-bg{fill:#daf4e3}.working{fill:#1a7f43}
+    .progress-bg{fill:#fff1cf}.progress{fill:#855b00}
+    .wardogs-bg{fill:#ffebe9}.wardogs{fill:#b0443e}
+    .pending-bg{fill:#e9eef4}.pending{fill:#58677a}
+    .divider{stroke:#dce3eb}
     @media(prefers-color-scheme:dark){
-      .card{fill:#0d1117;stroke:#30363d}.main{fill:#f0f6fc}.muted{fill:#9198a1}
-      .line{stroke:#30363d}.header{fill:#161b22}
-      .working-bg{fill:#122c1e}.working{fill:#56d483}
-      .progress-bg{fill:#30260f}.progress{fill:#e9bd55}
-      .wardogs-bg{fill:#351e20}.wardogs{fill:#f28b82}
-      .pending-bg{fill:#21262d}.pending{fill:#a4afbd}
+      .panel{fill:#0d1117;stroke:#303a47}.main{fill:#e6edf5}.muted{fill:#98a6b7}
+      .arc{fill:#11261f;stroke:#2c5943}.accent{fill:#64dfa0}.arc-title{fill:#effff5}
+      .row{fill:#121923;stroke:#25303d}.hatch{stroke:#9aafc6;stroke-opacity:.09}
+      .working-bg{fill:#183e2b}.working{fill:#71dda2}
+      .progress-bg{fill:#382e18}.progress{fill:#e9bd55}
+      .wardogs-bg{fill:#3b2428}.wardogs{fill:#f28b82}
+      .pending-bg{fill:#25303e}.pending{fill:#b1bdcc}
+      .divider{stroke:#283340}
     }
   </style>
-  <rect class="card" x=".5" y=".5" width="859" height="489" rx="12"/>
-  <text class="main" x="24" y="37" font-size="19" font-weight="600">Game compatibility</text>
-  <text class="muted" x="836" y="36" font-size="12" text-anchor="end">Updated 21 October 2026</text>
-  <rect class="header" x="16" y="58" width="828" height="34" rx="6"/>
-  <g class="muted" font-size="11" font-weight="600" letter-spacing="1">
-    <text x="32" y="80">GAME</text>
-    <text x="318" y="80">STATUS</text>
-    <text x="528" y="80">COMPATIBILITY</text>
+  <defs>
+    <pattern id="later-stripes" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path class="hatch" d="M-4 4 4-4M0 16 16 0M12 20 20 12" fill="none" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect class="panel" x=".5" y=".5" width="859" height="577" rx="16"/>
+  <text class="main" x="24" y="35" font-size="19" font-weight="650">Compatibility overview</text>
+  <text class="muted" x="836" y="34" text-anchor="end" font-size="11">Updated 22 October 2026</text>
+  <g class="muted" font-size="10" font-weight="600" letter-spacing="1.3">
+    <text x="36" y="65">GAME</text>
+    <text x="306" y="65">STATUS</text>
+    <text x="520" y="65">COMPATIBILITY</text>
   </g>
-  <g class="line">
-    <path d="M24 158H836M24 222H836M24 286H836M24 350H836M24 414H836"/>
-  </g>
-  <g class="main" font-size="17" font-weight="600">
-    <text x="32" y="132">ARC Raiders</text>
-    <text x="32" y="196">THE FINALS</text>
-    <text x="32" y="260">Squad</text>
-    <text x="32" y="324">WARDOGS</text>
-    <text x="32" y="388">Helldivers</text>
-    <text x="32" y="452">GTA 6 (PC release)</text>
+  <rect class="arc" x="16.5" y="82.5" width="827" height="80" rx="12"/>
+  <rect class="accent" x="17" y="104" width="3" height="36" rx="1.5"/>
+  <text class="arc-title" x="36" y="116" font-size="20" font-weight="650">ARC Raiders</text>
+  <text class="accent" x="36" y="141" font-size="10" font-weight="650" letter-spacing="1.4">FIRST RELEASE</text>
+  <rect class="working-bg" x="298" y="106" width="168" height="32" rx="8"/>
+  <circle class="working" cx="315" cy="122" r="3.5"/>
+  <text class="working" x="329" y="127" font-size="14" font-weight="600">Working</text>
+  <text class="main" x="520" y="128" font-size="14">Full compatibility</text>
+  <text class="muted" x="24" y="190" font-size="10" font-weight="600" letter-spacing="1.3">LATER RELEASES</text>
+  <path class="divider" d="M146 186H836"/>
+  <g>
+    <rect class="row" x="16.5" y="204.5" width="827" height="64" rx="10"/>
+    <rect x="17" y="205" width="826" height="63" rx="10" fill="url(#later-stripes)"/>
+    <text class="main" x="36" y="243" font-size="16" font-weight="600">THE FINALS</text>
+    <rect class="working-bg" x="298" y="220" width="168" height="32" rx="8"/>
+    <circle class="working" cx="315" cy="236" r="3.5"/>
+    <text class="working" x="329" y="241" font-size="14" font-weight="600">Working</text>
+    <text class="muted" x="520" y="242" font-size="14">Full compatibility</text>
   </g>
   <g>
-    <rect class="working-bg" x="310" y="108" width="164" height="32" rx="16"/>
-    <rect class="working-bg" x="310" y="172" width="164" height="32" rx="16"/>
-    <rect class="progress-bg" x="310" y="236" width="164" height="32" rx="16"/>
-    <rect class="wardogs-bg" x="310" y="300" width="164" height="32" rx="16"/>
-    <rect class="pending-bg" x="310" y="364" width="164" height="32" rx="16"/>
-    <rect class="pending-bg" x="310" y="428" width="164" height="32" rx="16"/>
+    <rect class="row" x="16.5" y="276.5" width="827" height="64" rx="10"/>
+    <rect x="17" y="277" width="826" height="63" rx="10" fill="url(#later-stripes)"/>
+    <text class="main" x="36" y="315" font-size="16" font-weight="600">Squad</text>
+    <rect class="progress-bg" x="298" y="292" width="168" height="32" rx="8"/>
+    <circle class="progress" cx="315" cy="308" r="3.5"/>
+    <text class="progress" x="329" y="313" font-size="14" font-weight="600">Some progress</text>
+    <text class="muted" x="520" y="314" font-size="14">Some online compatibility still missing</text>
   </g>
   <g>
-    <circle class="working" cx="327" cy="124" r="3.5"/>
-    <circle class="working" cx="327" cy="188" r="3.5"/>
-    <circle class="progress" cx="327" cy="252" r="3.5"/>
-    <circle class="wardogs" cx="327" cy="316" r="3.5"/>
-    <circle class="pending" cx="327" cy="380" r="3.5"/>
-    <circle class="pending" cx="327" cy="444" r="3.5"/>
+    <rect class="row" x="16.5" y="348.5" width="827" height="64" rx="10"/>
+    <rect x="17" y="349" width="826" height="63" rx="10" fill="url(#later-stripes)"/>
+    <text class="main" x="36" y="387" font-size="16" font-weight="600">WARDOGS</text>
+    <rect class="wardogs-bg" x="298" y="364" width="168" height="32" rx="8"/>
+    <circle class="wardogs" cx="315" cy="380" r="3.5"/>
+    <text class="wardogs" x="329" y="385" font-size="14" font-weight="600">Some progress</text>
   </g>
-  <g font-size="14" font-weight="600">
-    <text class="working" x="341" y="129">Working</text>
-    <text class="working" x="341" y="193">Working</text>
-    <text class="progress" x="341" y="257">Some progress</text>
-    <text class="wardogs" x="341" y="321">Some progress</text>
-    <text class="pending" x="341" y="385">Not started</text>
-    <text class="pending" x="341" y="449">Not started</text>
+  <g>
+    <rect class="row" x="16.5" y="420.5" width="827" height="64" rx="10"/>
+    <rect x="17" y="421" width="826" height="63" rx="10" fill="url(#later-stripes)"/>
+    <text class="main" x="36" y="459" font-size="16" font-weight="600">Helldivers</text>
+    <rect class="pending-bg" x="298" y="436" width="168" height="32" rx="8"/>
+    <circle class="pending" cx="315" cy="452" r="3.5"/>
+    <text class="pending" x="329" y="457" font-size="14" font-weight="600">Not started</text>
+    <text class="muted" x="520" y="458" font-size="14">Still under consideration</text>
   </g>
-  <g font-size="14">
-    <text class="main" x="528" y="131">Full compatibility</text>
-    <text class="main" x="528" y="195">Full compatibility</text>
-    <text class="muted" x="528" y="259">Some online compatibility still missing</text>
-    <text class="muted" x="528" y="387">Still under consideration</text>
-    <text class="muted" x="528" y="440">Only if it doesn’t already work<tspan x="528" dy="20">through CrossOver</tspan></text>
+  <g>
+    <rect class="row" x="16.5" y="492.5" width="827" height="64" rx="10"/>
+    <rect x="17" y="493" width="826" height="63" rx="10" fill="url(#later-stripes)"/>
+    <text class="main" x="36" y="531" font-size="16" font-weight="600">GTA 6 (PC release)</text>
+    <rect class="pending-bg" x="298" y="508" width="168" height="32" rx="8"/>
+    <circle class="pending" cx="315" cy="524" r="3.5"/>
+    <text class="pending" x="329" y="529" font-size="14" font-weight="600">Not started</text>
+    <text class="muted" x="520" y="519" font-size="14">Only if it doesn’t already work</text>
+    <text class="muted" x="520" y="539" font-size="14">through CrossOver</text>
   </g>
 </svg>
