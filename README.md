@@ -6,6 +6,12 @@
 
 [**ARC Raiders project ↗**](https://github.com/zzoko/arc-raiders-macos-compatibility)
 
+## Community
+
+[**Game suggestions, feedback & general chat ↗**](https://github.com/zzoko/mac-gaming-compatibility/discussions/2)
+
+Suggest a game, share your experience, ask a question, or just chat about Mac gaming.
+
 ## Support
 
 Optional contributions help support the compatibility work.
