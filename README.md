@@ -10,7 +10,7 @@
 
 [**Game suggestions, feedback & general chat ↗**](https://github.com/zzoko/mac-gaming-compatibility/discussions/2)
 
-Suggest a game, share your experience, ask a question, or just chat about Mac gaming.
+Suggest a game, share feedback or chat.
 
 ## Support
 
