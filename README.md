@@ -1,7 +1,5 @@
 # Mac Gaming Compatibility
 
-Compatibility projects and progress for games on macOS.
-
 <sub>Updated 26 October 2026</sub>
 
 ![ARC Raiders and THE FINALS are released — Working, full compatibility. Planned for later: Squad — Some progress, some online compatibility still missing. WARDOGS — Some progress. Helldivers 2 — Not started. GTA 6 (PC release) — Not started, only if it doesn’t already work through CrossOver.](docs/images/game-status.svg)
