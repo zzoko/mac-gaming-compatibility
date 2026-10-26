@@ -2,19 +2,19 @@
 
 <sub>Updated 26 October 2026</sub>
 
-![ARC Raiders and THE FINALS are released — Working, full compatibility. Planned for later: Squad — Some progress, some online compatibility still missing. WARDOGS — Some progress. Helldivers 2 — Not started. GTA 6 (PC release) — Not started, only if it doesn’t already work through CrossOver.](docs/images/game-status.svg)
+<p>
+  <img src="docs/images/released-header.svg" alt="Released — Game, Status, Notes" width="844"><br>
+  <a href="https://github.com/zzoko/arc-raiders-macos-compatibility"><img src="docs/images/arc-raiders-row.svg" alt="ARC Raiders — Working, full compatibility. Project ↗" width="844"></a><br>
+  <a href="https://github.com/zzoko/the-finals-macos-compatibility"><img src="docs/images/the-finals-row.svg" alt="THE FINALS — Working, full compatibility. Project ↗" width="844"></a>
+</p>
+
+![Planned for later: Squad — Some progress, some online compatibility still missing. WARDOGS — Some progress. Helldivers 2 — Not started. GTA 6 (PC release) — Not started, only if it doesn’t already work through CrossOver.](docs/images/planned-table.svg)
 
 <sub>Not every game listed is guaranteed to reach full compatibility. Maintaining compatibility with new CrossOver versions, macOS versions, or game updates depends on the time I have available.</sub>
 
-[**ARC Raiders project ↗**](https://github.com/zzoko/arc-raiders-macos-compatibility)
-
-[**THE FINALS project ↗**](https://github.com/zzoko/the-finals-macos-compatibility)
-
 ## Community
 
-[**Game suggestions, feedback & general chat ↗**](https://github.com/zzoko/mac-gaming-compatibility/discussions/2)
-
-Suggest a game, share feedback or chat.
+[Suggestions, feedback & general chat ↗](https://github.com/zzoko/mac-gaming-compatibility/discussions/2)
 
 ## Support
 
