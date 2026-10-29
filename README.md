@@ -4,7 +4,7 @@
 
 <p>
   <img src="docs/images/released-header.svg" alt="Released — Game, Status, Notes" width="844"><br>
-  <a href="https://github.com/zzoko/arc-raiders-macos-compatibility"><img src="docs/images/arc-raiders-row-2026-10-29-v3.svg" alt="ARC Raiders — Finished; Needs updating for new game update. Project ↗" width="844"></a><br>
+  <a href="https://github.com/zzoko/arc-raiders-macos-compatibility"><img src="docs/images/arc-raiders-row-2026-10-29-v4.svg" alt="ARC Raiders — Finished; Needs updating for new game update. Project ↗" width="844"></a><br>
   <a href="https://github.com/zzoko/the-finals-macos-compatibility"><img src="docs/images/the-finals-row-2026-10-29-v3.svg" alt="THE FINALS — Finished. Also needs updating but less critically, still mostly functional. Project ↗" width="844"></a>
 </p>
 
