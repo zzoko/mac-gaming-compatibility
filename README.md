@@ -5,7 +5,7 @@
 <p>
   <img src="docs/images/released-header.svg" alt="Released — Game, Status, Notes" width="844"><br>
   <a href="https://github.com/zzoko/arc-raiders-macos-compatibility"><img src="docs/images/arc-raiders-row-2026-10-29-v3.svg" alt="ARC Raiders — Finished; Needs updating for new game update. Project ↗" width="844"></a><br>
-  <a href="https://github.com/zzoko/the-finals-macos-compatibility"><img src="docs/images/the-finals-row-2026-10-29-v2.svg" alt="THE FINALS — Finished, full compatibility. Project ↗" width="844"></a>
+  <a href="https://github.com/zzoko/the-finals-macos-compatibility"><img src="docs/images/the-finals-row-2026-10-29-v3.svg" alt="THE FINALS — Finished. Also needs updating but less critically, still mostly functional. Project ↗" width="844"></a>
 </p>
 
 ![Planned for later: Squad — Some progress. Graphics translation working; EAC/EOS integration in progress. WARDOGS — Some progress. Graphics translation working; Elytra kernel-driver compatibility in progress. Helldivers 2 — Not started. GTA 6 (PC release) — Not started, only if it doesn’t already work through CrossOver.](docs/images/planned-table-2026-10-29.svg)
