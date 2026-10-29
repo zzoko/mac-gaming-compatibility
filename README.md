@@ -1,11 +1,11 @@
 # Mac Gaming Compatibility
 
-<sub>Updated 26 October 2026</sub>
+<sub>Updated 29 October 2026</sub>
 
 <p>
   <img src="docs/images/released-header.svg" alt="Released — Game, Status, Notes" width="844"><br>
-  <a href="https://github.com/zzoko/arc-raiders-macos-compatibility"><img src="docs/images/arc-raiders-row.svg" alt="ARC Raiders — Working, full compatibility. Project ↗" width="844"></a><br>
-  <a href="https://github.com/zzoko/the-finals-macos-compatibility"><img src="docs/images/the-finals-row.svg" alt="THE FINALS — Working, full compatibility. Project ↗" width="844"></a>
+  <a href="https://github.com/zzoko/arc-raiders-macos-compatibility"><img src="docs/images/arc-raiders-row.svg" alt="ARC Raiders — Finished; needs updating for new game update. Project ↗" width="844"></a><br>
+  <a href="https://github.com/zzoko/the-finals-macos-compatibility"><img src="docs/images/the-finals-row.svg" alt="THE FINALS — Finished, full compatibility. Project ↗" width="844"></a>
 </p>
 
 ![Planned for later: Squad — Some progress, some online compatibility still missing. WARDOGS — Some progress. Helldivers 2 — Not started. GTA 6 (PC release) — Not started, only if it doesn’t already work through CrossOver.](docs/images/planned-table.svg)
