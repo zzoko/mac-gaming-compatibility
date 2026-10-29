@@ -8,7 +8,7 @@
   <a href="https://github.com/zzoko/the-finals-macos-compatibility"><img src="docs/images/the-finals-row-2026-10-29-v2.svg" alt="THE FINALS — Finished, full compatibility. Project ↗" width="844"></a>
 </p>
 
-![Planned for later: Squad — Some progress, some online compatibility still missing. WARDOGS — Some progress. Helldivers 2 — Not started. GTA 6 (PC release) — Not started, only if it doesn’t already work through CrossOver.](docs/images/planned-table.svg)
+![Planned for later: Squad — Some progress. Graphics translation working; EAC/EOS integration in progress. WARDOGS — Some progress. Graphics translation working; Elytra kernel-driver compatibility in progress. Helldivers 2 — Not started. GTA 6 (PC release) — Not started, only if it doesn’t already work through CrossOver.](docs/images/planned-table-2026-10-29.svg)
 
 <sub>Not every game listed is guaranteed to reach full compatibility. Maintaining compatibility with new CrossOver versions, macOS versions, or game updates depends on the time I have available.</sub>
 
